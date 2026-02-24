@@ -14,7 +14,6 @@
 ## 🙋 About
 
 金沢工業大学 情報工学科。Web・モバイル・デスクトップ・CLI と幅広く開発。  
-現在は **Kotlin（Android）** と **TypeScript** を重点的に学習中。
 
 **Languages:**
 <p align="left">
