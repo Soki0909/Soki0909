@@ -31,6 +31,18 @@
 
 ![Chrome Extension](https://img.shields.io/badge/Chrome_Extension-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)
 
+**Communication / Protocols:**
+
+複数プロジェクトで端末間通信の設計・実装を繰り返し担当してきた結果、以下のプロトコル・通信方式に深い理解がある。
+
+![BLE](https://img.shields.io/badge/BLE-0082FC?style=for-the-badge&logo=bluetooth&logoColor=white)
+![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=for-the-badge&logo=webrtc&logoColor=white)
+![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
+![REST API](https://img.shields.io/badge/REST%20API-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Firebase Realtime](https://img.shields.io/badge/Firebase%20Realtime-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![ESP-12E](https://img.shields.io/badge/ESP--12E-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=for-the-badge&logo=raspberrypi&logoColor=white)
+
 ---
 
 ## 🚀 制作物
@@ -51,7 +63,8 @@
 
 **AI動画解析による家庭用4DXシステム。** 任意のMP4動画をGemini 2.5 Pro Visionで解析し、振動・光・風・水・色の5種類の物理フィードバックを自動生成。  
 Webアプリ（React + TypeScript） × Cloud Run API（FastAPI） × Raspberry Pi Hub × ESP-12E × 4台の3層アーキテクチャ。  
-映像と物理効果の同期誤差は **±100ms以内**。3Dプリント筐体も自作。
+映像と物理効果の同期誤差は **±100ms以内**。3Dプリント筐体も自作。  
+担当：**APIサーバー構築 / WebアプリとRaspberry Pi双方の通信制御・実装**。
 
 > 🔗 [Live Demo](https://kz-2504.onrender.com)
 
@@ -61,13 +74,14 @@ Webアプリ（React + TypeScript） × Cloud Run API（FastAPI） × Raspberry 
 
 ---
 
-#### [Sleep Buster (WILDCARD)](https://github.com/Saisei2004/WILDCARD) — Hackit 2025
+#### [Sleep Buster](https://github.com/Saisei2004/WILDCARD) — Hackit 2025
 
 [![Hackit 最優秀賞](https://img.shields.io/badge/Hackit%202025-🏆%20最優秀賞-gold?style=flat-square)](https://hackit-website.vercel.app/)
 
 **みんなの朝を「つなぐ」アラームアプリ。** 友達が遠隔操作でロボット「バスタ君」（LEGO EV3製）を動かし、寝坊した人を**物理的に**たたき起こす。  
 SkyWay WebRTCによるリアルタイム映像確認、Firebase経由の起床ステータス同期、Bluetooth制御を実装。  
-8チームが参加する学内ハッカソン「Hackit 2025」で **最優秀賞を受賞**。
+8チームが参加する学内ハッカソン「Hackit 2025」で **最優秀賞を受賞**。  
+担当：**SkyWay WebRTCによるリアルタイム映像確認の実装**。
 
 > ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white) ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black) ![SkyWay WebRTC](https://img.shields.io/badge/SkyWay%20WebRTC-0078D4?style=for-the-badge&logo=webrtc&logoColor=white) ![LEGO EV3](https://img.shields.io/badge/LEGO%20EV3-E3000B?style=for-the-badge&logo=lego&logoColor=white)
 
