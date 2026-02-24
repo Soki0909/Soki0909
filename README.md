@@ -11,65 +11,89 @@
 
 ---
 
-## 🙋 自己紹介
+## 🙋 About
 
-- 🏫 **金沢工業大学** 情報工学科 在籍
-- 💻 Web・モバイル・デスクトップ・CLI と幅広く開発
-- 🏆 ハッカソン参戦中（JPHacks / スマプロハッカソン など）
-- 🔧 日常の「ちょっと困った」を解決するツール作りが好き
-- 🌱 現在は **Kotlin（Android）** と **TypeScript** を重点的に学習中
+金沢工業大学 情報工学科。Web・モバイル・デスクトップ・CLI と幅広く開発。  
+現在は **Kotlin（Android）** と **TypeScript** を重点的に学習中。
 
----
-
-## 🛠 技術スタック
-
-### 言語
+**Languages:**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 
-### フレームワーク・ツール
+**Tools:**
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
-![OpenGL](https://img.shields.io/badge/OpenGL-5586A4?style=flat-square&logo=opengl&logoColor=white)
-![Chrome Extension](https://img.shields.io/badge/Chrome_Extension-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![Chrome Extension](https://img.shields.io/badge/Chrome_Extension-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
 
 ---
 
-## 🚀 主な制作物
+## 🚀 制作物
 
-### 🏅 ハッカソン作品
+> 📝 **掲載リポジトリのドキュメント（README・技術仕様書）はすべて私が執筆しています。**
 
-| プロジェクト | 概要 | 技術 | ⭐ |
-|---|---|---|---|
-| [**4D@Home**](https://github.com/jphacks/kz_2504) | AI動画解析で振動・光・風・水の物理効果を生成し、家庭用4DX体験を実現 | Python | 5 |
-| [**WILDCARD**](https://github.com/Saisei2004/WILDCARD) | ロボットが起こしてくれるアラームアプリ（Hackitハッカソン） | Kotlin | 4 |
-| [**EnCounter**](https://github.com/razy6174/EnCounter) | スマプロハッカソン2026 出展 Androidアプリ | Kotlin | 4 |
+---
 
-### 🌐 個人開発
+## 🏆 ハッカソン
+
+#### [4DX@HOME](https://github.com/jphacks/kz_2504) — JPHacks 2025
+
+[![JPHacks Best Hackday Award](https://img.shields.io/badge/JPHacks%202025-🥇%20Best%20Hackday%20Award-gold?style=flat-square)](https://jphacks.com/information/hackday-result-2025/)
+[![Award Day Finalist](https://img.shields.io/badge/JPHacks%202025-🎯%20Award%20Day%20Finalist-blue?style=flat-square)](https://jphacks.com/information/award-finalists2025/)
+[![審査委員特別賞](https://img.shields.io/badge/JPHacks%202025-🏅%20審査委員特別賞-silver?style=flat-square)](https://jphacks.com/2025/result/innovator/)
+[![Innovator認定](https://img.shields.io/badge/JPHacks%202025-💡%20Innovator認定-purple?style=flat-square)](https://jphacks.com/2025/result/innovator/)
+[![企業賞3社](https://img.shields.io/badge/企業賞-3社受賞-orange?style=flat-square)]()
+
+**AI動画解析による家庭用4DXシステム。** 任意のMP4動画をGemini 2.5 Pro Visionで解析し、振動・光・風・水・色の5種類の物理フィードバックを自動生成。  
+Webアプリ（React + TypeScript） × Cloud Run API（FastAPI） × Raspberry Pi Hub × ESP-12E × 4台の3層アーキテクチャ。  
+映像と物理効果の同期誤差は **±100ms以内**。3Dプリント筐体も自作。
+
+> 🔗 [Live Demo](https://kz-2504.onrender.com)　|　`Python` `React` `TypeScript` `FastAPI` `Raspberry Pi` `ESP-12E`  
+> 📝 **README・技術仕様書（5種）を執筆**
+
+---
+
+#### [Sleep Buster (WILDCARD)](https://github.com/Saisei2004/WILDCARD) — Hackit 2025
+
+[![Hackit 最優秀賞](https://img.shields.io/badge/Hackit%202025-🏆%20最優秀賞-gold?style=flat-square)](https://hackit-website.vercel.app/)
+
+**みんなの朝を「つなぐ」アラームアプリ。** 友達が遠隔操作でロボット「バスタ君」（LEGO EV3製）を動かし、寝坊した人を**物理的に**たたき起こす。  
+SkyWay WebRTCによるリアルタイム映像確認、Firebase経由の起床ステータス同期、Bluetooth制御を実装。  
+8チームが参加する学内ハッカソン「Hackit 2025」で **最優秀賞を受賞**。
+
+> `Kotlin` `Jetpack Compose` `Firebase` `SkyWay WebRTC` `LEGO EV3`  
+> 📝 **README・システム仕様書（全15章）を執筆**
+
+---
+
+#### [EnCounter](https://github.com/razy6174/EnCounter) — スマプロハッカソン 2026
+
+[![スマプロ最優秀賞](https://img.shields.io/badge/スマプロハッカソン%202026-🏆%20最優秀賞-gold?style=flat-square)](https://www.smartphone-programming.com/)
+
+**ハイパーローカル・すれちがいマッチングアプリ。** BLE（Bluetooth Low Energy）で半径数メートル以内の「すれ違い」をリアルタイム検知し、気分(Mood)と興味タグが一致した時だけマッチング通知。  
+位置情報不要・匿名認証・ステルスモード搭載。チャット、すれちがい図鑑、鼓動風バイブレーション通知を実装。  
+担当：**バックエンド / アーキテクチャ設計 / BLE通信 / Firebase連携**。
+
+> `Kotlin` `Jetpack Compose` `Firebase` `Android BLE API` `Hilt` `Coroutines / Flow`  
+> 📝 **README・バックエンド仕様書・フロントエンド仕様書を執筆**
+
+---
+
+### 🌐 個人開発 & Chrome 拡張
 
 | プロジェクト | 概要 | 技術 |
 |---|---|---|
 | [**ポートフォリオサイト**](https://github.com/Soki0909/Soki0909.github.io) | 自作ポートフォリオサイト ([公開中](https://soki0909.github.io/)) | TypeScript |
 | [**happy-chicken-ticket-system**](https://github.com/Soki0909/happy-chicken-ticket-system) | 工大祭屋台で使用したQRコードベースのリアルタイム整理番号管理システム | JavaScript |
-| [**pdf_to_markdown**](https://github.com/Soki0909/pdf_to_markdown) | PDFファイルをMarkdown形式に変換するCLIツール | Python |
-| [**PianoApp**](https://github.com/Soki0909/PianoApp) | OpenGLで制作した3D電子ピアノ（授業作品） | C |
-| [**LightsOut**](https://github.com/Soki0909/LightsOut) | ライツアウトパズルゲーム（numpy学習用） | Python |
-| [**sum-equals-concat**](https://github.com/Soki0909/sum-equals-concat) | 和と連結値が等しくなる数ペアを探索するプログラム | Python |
-
-### 🧩 Chrome拡張機能
-
-| 拡張機能 | 概要 |
-|---|---|
-| [**subject_semester_sorter**](https://github.com/Soki0909/subject_semester_sorter) | KITナビ上で年度・学期の履修科目を一覧表示 |
-| [**kit_navi_autofocus**](https://github.com/Soki0909/kit_navi_autofocus) | 大学学生ポータルのログイン・ナビ操作を自動化 |
-| [**think_before_ai**](https://github.com/Soki0909/think_before_ai) | 生成AIサイトを開く前に「本当に必要？」と問いかけるポップアップ |
+| [**pdf_to_markdown**](https://github.com/Soki0909/pdf_to_markdown) | PDFをMarkdown形式に変換するCLIツール | Python |
+| [**PianoApp**](https://github.com/Soki0909/PianoApp) | OpenGLで制作した3D電子ピアノ | C |
+| [**subject_semester_sorter**](https://github.com/Soki0909/subject_semester_sorter) | KITナビ上で年度・学期の履修科目を一覧表示（Chrome拡張） | JavaScript |
+| [**kit_navi_autofocus**](https://github.com/Soki0909/kit_navi_autofocus) | 大学ポータルのログイン・ナビ操作を自動化（Chrome拡張） | JavaScript |
+| [**think_before_ai**](https://github.com/Soki0909/think_before_ai) | 生成AIサイトを開く前に「本当に必要？」と問いかけるポップアップ（Chrome拡張） | JavaScript |
 
 ---
 
@@ -77,8 +101,8 @@
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Soki0909&show_icons=true&theme=tokyonight&locale=ja&hide_border=true&count_private=true" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Soki0909&layout=compact&theme=tokyonight&locale=ja&hide_border=true&langs_count=8" />
+<img height="170" src="./profile/stats.svg" />
+<img height="170" src="./profile/langs.svg" />
 
 </div>
 
