@@ -33,7 +33,7 @@
 
 **Communication / Protocols:**
 
-複数プロジェクトで端末間通信の設計・実装を繰り返し担当してきた結果、以下のプロトコル・通信方式に深い理解がある。
+複数プロジェクトで端末間通信の設計・実装を繰り返し担当してきた結果、以下のプロトコル・通信方式に理解がある。
 
 ![BLE](https://img.shields.io/badge/BLE-0082FC?style=for-the-badge&logo=bluetooth&logoColor=white)
 ![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=for-the-badge&logo=webrtc&logoColor=white)
