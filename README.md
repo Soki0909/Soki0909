@@ -47,7 +47,7 @@
 
 ## 🚀 制作物
 
-> 📝 **掲載リポジトリのドキュメント（README・技術仕様書）はすべて私が執筆しています。**
+> 📝 **README・技術仕様書の執筆・整備にも力を入れています。**
 
 ---
 
@@ -74,18 +74,51 @@ Webアプリ（React + TypeScript） × Cloud Run API（FastAPI） × Raspberry 
 
 ---
 
-#### [Sleep Buster](https://github.com/Saisei2004/WILDCARD) — Hackit 2025
+#### [Screact](https://github.com/KIT-DevelopersHub/screact) — THE HACK 2026
 
-[![Hackit 最優秀賞](https://img.shields.io/badge/Hackit%202025-🏆%20最優秀賞-gold?style=flat-square)](https://hackit-website.vercel.app/)
+[![THE HACK 2026 大賞](https://img.shields.io/badge/THE%20HACK%202026-🏆%20大賞-gold?style=flat-square)](https://github.com/KIT-DevelopersHub/screact)
 
-**みんなの朝を「つなぐ」アラームアプリ。** 友達が遠隔操作でロボット「バスタ君」（LEGO EV3製）を動かし、寝坊した人を**物理的に**たたき起こす。  
-SkyWay WebRTCによるリアルタイム映像確認、Firebase経由の起床ステータス同期、Bluetooth制御を実装。  
-8チームが参加する学内ハッカソン「Hackit 2025」で **最優秀賞を受賞**。  
-担当：**SkyWay WebRTCによるリアルタイム映像確認の実装**。
+**既存のモニターやプロジェクターを、指で描いて操作できる画面へ。** Androidスマホで手指を認識し、PC上の画面へ描画・クリック・スクロールなどの操作を反映。  
+MediaPipeによる手指認識、ArUcoとHomographyによる画面座標変換、One-Euro Filterによる平滑化を組み合わせ、UDP自動発見とWebSocketでスマホとPCを接続。  
+**THE HACK 2026 本戦で大賞を受賞**。
 
-> ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white) ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black) ![SkyWay WebRTC](https://img.shields.io/badge/SkyWay%20WebRTC-0078D4?style=for-the-badge&logo=webrtc&logoColor=white) ![LEGO EV3](https://img.shields.io/badge/LEGO%20EV3-E3000B?style=for-the-badge&logo=lego&logoColor=white)
+> 🔗 [デモ動画（約33秒）](https://drive.google.com/file/d/14SZvVKVLxcpKkB3tEl41TTzPK-4H_XEj/view?usp=sharing)
 
-> 📝 **README・システム仕様書（全15章）を執筆**
+> ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white) ![MediaPipe](https://img.shields.io/badge/MediaPipe-00A67E?style=for-the-badge) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white) ![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
+
+> 📝 **README・Android / Desktop / 通信仕様書を公開**
+
+---
+
+#### [Re:Cooplay](https://github.com/jphacks/kz_2613) — JPHACKS 2026
+
+[![Hack Day Audience Award](https://img.shields.io/badge/JPHACKS%202026-🏆%20Hack%20Day%20Audience%20Award-gold?style=flat-square)](https://github.com/jphacks/kz_2613)
+
+**1人用のPCゲームに、複数人の協力プレイを後付けするシステム。** 1つのキャラクターの移動・視点・攻撃などを2〜4人で役割分担し、ゲーム本体を改造せずに共同操作。  
+スマホのブラウザから参加し、ゲームや人数に応じて操作を割り当て。Rust製PCホストで入力を統合し、WebRTC DataChannel・WebSocketとWindows APIを活用。  
+**JPHACKS 2026 金沢会場 Hack Day Audience Awardを受賞**。
+
+> 🔗 [紹介動画](https://youtu.be/a8uhU2ymsuQ)
+
+> ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white) ![Tauri](https://img.shields.io/badge/Tauri-24C8DB?style=for-the-badge&logo=tauri&logoColor=white) ![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=for-the-badge&logo=webrtc&logoColor=white) ![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white) ![Windows](https://img.shields.io/badge/Windows%20API-0078D4?style=for-the-badge&logo=windows&logoColor=white)
+
+> 📝 **README・総合仕様書・通信仕様書を公開**
+
+---
+
+#### [omoi](https://github.com/Ruaku1352/omoi) — Tornado 2026
+
+[![NTTレゾナントテクノロジー賞](https://img.shields.io/badge/Tornado%202026-🏆%20NTTレゾナントテクノロジー賞-gold?style=flat-square)](https://github.com/Ruaku1352/omoi)
+
+**一枚の写真ではなく、一つの思い出を飾る。** 複数の写真と思い出テキストから、AIが人物・場所・物などの要素を選び、多層の立体レイヤーアートへ再構成。  
+React製Webアプリで3Dプレビューと2D編集を行い、FastAPI・Gemini・画像処理で作品データを生成。実際に飾れる物理作品への出力にも対応。  
+**Tornado 2026でNTTレゾナントテクノロジー賞を受賞**。
+
+> 🔗 [Live Demo](https://omoi-506412.web.app/)
+
+> ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+
+> 📝 **README・システム仕様書・ギャラリーを公開**
 
 ---
 
@@ -103,17 +136,38 @@ SkyWay WebRTCによるリアルタイム映像確認、Firebase経由の起床�
 
 ---
 
+#### [Sleep Buster](https://github.com/Saisei2004/WILDCARD) — Hackit 2025
+
+[![Hackit 最優秀賞](https://img.shields.io/badge/Hackit%202025-🏆%20最優秀賞-gold?style=flat-square)](https://hackit-website.vercel.app/)
+
+**みんなの朝を「つなぐ」アラームアプリ。** 友達が遠隔操作でロボット「バスタ君」（LEGO EV3製）を動かし、寝坊した人を**物理的に**たたき起こす。  
+SkyWay WebRTCによるリアルタイム映像確認、Firebase経由の起床ステータス同期、Bluetooth制御を実装。  
+8チームが参加する学内ハッカソン「Hackit 2025」で **最優秀賞を受賞**。  
+担当：**SkyWay WebRTCによるリアルタイム映像確認の実装**。
+
+> ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white) ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black) ![SkyWay WebRTC](https://img.shields.io/badge/SkyWay%20WebRTC-0078D4?style=for-the-badge&logo=webrtc&logoColor=white) ![LEGO EV3](https://img.shields.io/badge/LEGO%20EV3-E3000B?style=for-the-badge&logo=lego&logoColor=white)
+
+> 📝 **README・システム仕様書（全15章）を執筆**
+
+---
+
 ### 🌐 個人開発 & Chrome 拡張
 
 | プロジェクト | 概要 | 技術 |
 |---|---|---|
+| [**Shortcut Manager**](https://github.com/Soki0909/windows-shortcut-manager) | Windowsのショートカットキーにアプリ・Webサイト・Chromeタブグループなどを割り当てる管理ツール（正式版準備中） | ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
 | [**ポートフォリオサイト**](https://github.com/Soki0909/Soki0909.github.io) | 自作ポートフォリオサイト ([公開中](https://soki0909.github.io/)) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) |
 | [**happy-chicken-ticket-system**](https://github.com/Soki0909/happy-chicken-ticket-system) | 工大祭屋台で使用したQRコードベースのリアルタイム整理番号管理システム | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
 | [**pdf_to_markdown**](https://github.com/Soki0909/pdf_to_markdown) | PDFをMarkdown形式に変換するCLIツール | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
+| [**KyoinAssist**](https://github.com/Soki0909/KyoinAssist) | 出欠や生徒情報の管理を支援するAndroidアプリ（授業制作） | ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white) |
+| [**sum-equals-concat**](https://github.com/Soki0909/sum-equals-concat) | 数列の和が両端の整数を連結した数に等しくなる組を探索するプログラム | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
 | [**PianoApp**](https://github.com/Soki0909/PianoApp) | OpenGLで制作した3D電子ピアノ | ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white) |
 | [**subject_semester_sorter**](https://github.com/Soki0909/subject_semester_sorter) | KITナビ上で年度・学期の履修科目を一覧表示（Chrome拡張） | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
 | [**kit_navi_autofocus**](https://github.com/Soki0909/kit_navi_autofocus) | 大学ポータルのログイン・ナビ操作を自動化（Chrome拡張） | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
 | [**think_before_ai**](https://github.com/Soki0909/think_before_ai) | 生成AIサイトを開く前に「本当に必要？」と問いかけるポップアップ（Chrome拡張） | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
+| [**Quick Tab Mover**](https://github.com/Soki0909/quick-tab-mover) | キーボード操作でChromeのタブを別ウィンドウへ移動・タブ間ジャンプ（Chrome拡張） | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
+| [**Shortcut New Tab**](https://github.com/Soki0909/shortcut-newtab) | 新規タブをキーボード中心のランチャーへ置き換えるChrome拡張 | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
+| [**Focus Escape**](https://github.com/Soki0909/focus-escape) | Webページ上のフォーカスをショートカットキーで解除するChrome拡張 | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
 
 ---
 
