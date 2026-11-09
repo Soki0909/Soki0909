@@ -18,14 +18,14 @@
 **Languages:**
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,ts,kotlin,js,java,c" />
+    <img src="https://skillicons.dev/icons?i=py,ts,kotlin,js,java,c,rust,dart,cs,cpp,swift" />
   </a>
 </p>
 
 **Tools:**
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=nodejs,androidstudio,git" />
+    <img src="https://skillicons.dev/icons?i=nodejs,androidstudio,git,react,flutter,fastapi,firebase,opencv,tauri,dotnet" />
   </a>
 </p>
 
@@ -38,6 +38,7 @@
 ![BLE](https://img.shields.io/badge/BLE-0082FC?style=for-the-badge&logo=bluetooth&logoColor=white)
 ![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=for-the-badge&logo=webrtc&logoColor=white)
 ![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
+![UDP](https://img.shields.io/badge/UDP-4F46E5?style=for-the-badge&logoColor=white)
 ![REST API](https://img.shields.io/badge/REST%20API-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Firebase Realtime](https://img.shields.io/badge/Firebase%20Realtime-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![ESP-12E](https://img.shields.io/badge/ESP--12E-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
