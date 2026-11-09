@@ -47,7 +47,7 @@
 
 ## 🚀 制作物
 
-> 📝 **README・技術仕様書の執筆・整備にも力を入れています。**
+> 📝 **掲載リポジトリのドキュメント（README・技術仕様書）はすべて私が執筆しています。**
 
 ---
 
@@ -86,7 +86,7 @@ MediaPipeによる手指認識、ArUcoとHomographyによる画面座標変換�
 
 > ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white) ![MediaPipe](https://img.shields.io/badge/MediaPipe-00A67E?style=for-the-badge) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white) ![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
 
-> 📝 **README・Android / Desktop / 通信仕様書を公開**
+> 📝 **README・Android / Desktop / 通信仕様書を執筆**
 
 ---
 
@@ -102,7 +102,7 @@ MediaPipeによる手指認識、ArUcoとHomographyによる画面座標変換�
 
 > ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white) ![Tauri](https://img.shields.io/badge/Tauri-24C8DB?style=for-the-badge&logo=tauri&logoColor=white) ![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=for-the-badge&logo=webrtc&logoColor=white) ![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white) ![Windows](https://img.shields.io/badge/Windows%20API-0078D4?style=for-the-badge&logo=windows&logoColor=white)
 
-> 📝 **README・総合仕様書・通信仕様書を公開**
+> 📝 **README・総合仕様書・通信仕様書を執筆**
 
 ---
 
@@ -118,7 +118,7 @@ React製Webアプリで3Dプレビューと2D編集を行い、FastAPI・Gemini�
 
 > ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
-> 📝 **README・システム仕様書・ギャラリーを公開**
+> 📝 **README・システム仕様書・ギャラリーを執筆**
 
 ---
 
