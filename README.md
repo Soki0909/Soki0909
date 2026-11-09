@@ -22,6 +22,8 @@
   </a>
 </p>
 
+生成AI・AIエージェントを活用した設計・実装・検証にも取り組んでいます。
+
 **Tools:**
 <p align="left">
   <a href="https://skillicons.dev">
